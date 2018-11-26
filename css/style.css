@@ -1,0 +1,78 @@
+.eerstecontainer{
+    background:aqua;
+}
+.tweedecontainer{
+    background:green;
+}
+.derdecontainer{
+    background:yellow;
+}
+.vierkant{
+    height:100px;
+    width:100px;
+    background:red;
+}
+.vierkant2{
+    height: 50px;
+    width:50px;
+    background:blue;
+}
+.kleur{
+    background: purple;
+}
+
+
+
+
+
+/******  PRECHU  *******/
+
+
+
+
+/**** MEDIA QUERIES **/
+
+/** Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body > nav > div > div{
+        height: 90px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+/** ENKEL VOOR SLIDER ABSOLUTE POSITIONING **/
+/** .iphone{
+    top: 0px;
+    left: 0px;
+}**/
+
+#carouselExampleControls > div > div > div > div{
+    top: 0px;
+    left: 0px;
+}
+.iphone{
+    width: 300px;
+    margin-top: 15px;
+}
+h2{
+    font-size: 42px;
+}
+.potlood{
+    background-color: #5094f2;
+}
+.monitor{
+    background-color: #d94748;
+}
+.basket{
+    background-color: #ebbb11;
+}
